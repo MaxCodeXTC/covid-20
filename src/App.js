@@ -124,7 +124,7 @@ function App() {
         <Form.Group controlId="formGroupSearch">
           <Form.Control
             type="text"
-            placeholder="Search a country"
+            placeholder="Search for countries"
             onChange={e => setSearchCountries(e.target.value)}
           />
         </Form.Group>
